@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #FDFDFD;
+	width: 100%;
+	height: 100%
+}
+
+.sidebar {
+	position: absolute;
+	width: 140px;
+	height: 100%;
+	top: 0;
+	background-color: white;
+	box-shadow: 3px 0px 5px #F4F4F4;
+}
+
+.sidebar .icons {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.selected {
+	color: #3EBCB3;
+	border-right: 3px solid #3EBCB3;
+}
+
+
+i {
+    padding: 20px;
+}
+
+.navbar {
+	width: 95%;
+	height: 65px;
+	padding: 0px 170px 0px 140px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	box-shadow: 0px 3px 5px #F4F4F4;
+}
+
+.logo img {
+	width: 151px;
+    height: 65px;
+    object-fit: cover;
+    margin-left: 70px;
+}
+
+.bar {
+	display: flex;
+	align-items: center;
+}
+
+.bar .userbtn {
+	background-color: #B3E77F;
+    color: white;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+
+.content {
+	margin: 60px 225px 0px 225px;
+}
+
+h3 {
+	color: 	#53C3BB;
+}
+
+.content .block {
+	background-color: #F9FBFB;
+	margin-top: 70px;
+	padding: 25px 30% 25px 25px;
+}
+
+.pstyle {
+	margin: 20px 0px 30px 0px;
+	font-size: 13px;
+	color: #ACACAC;
+}
+
+.astyle, .order{
+	text-decoration: none;
+	color: 	#53C3BB;
+    border: 1px solid #53C3BB;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.order {
+	border-radius: 2px;
+	padding: 5px 40px;
+}
+
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	margin-top: 50px;
+}
+
+.container .box {
+	width: 360px;
+	height: 300px;
+	padding: 20px;
+	margin-bottom: 50px;
+	background-color: #FFFFFF;
+}
+
+.box:hover {
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover h3 {
+	color: #53C3BB;
+}
+
+
+.box .head {
+	display: flex;
+	padding: 10px;
+}
+
+.box h3 {
+	color: #4A4A4A;
+}
+
+.head .info {
+	margin-top: 20px;
+}
+
+.box .bottom {
+	padding: 0px 25px;
+}
+
+.bottom p {
+	margin: 0px 0px 30px 0px;
+}
+
+.box img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+
+footer {
+	color: #A6A6A6;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+footer .terms {
+	margin-top: 20px;
+}
+
+footer .terms a {
+	color: #A6A6A6;
+	padding: 0px 15px;
+}
+
+
+footer .terms a:not(:last-child) {
+	border-right: 2px solid #A6A6A6;
+}
